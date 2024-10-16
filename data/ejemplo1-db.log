@@ -1,0 +1,6 @@
+/*C3*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
+create table Pet (id varchar(32) not null, Fecha date, descripcion varchar(255), nombre varchar(255), raza varchar(255), primary key (id))
+INSERT INTO PET VALUES('8a455b219292bb00019292bbb8bc0000','2024-10-15','Peque\u00f1o, hermoso','Lulu','Chiuaua')
+COMMIT
